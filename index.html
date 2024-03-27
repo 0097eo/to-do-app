@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <title>MyToDoList</title>
 </head>
- <body>
+<body>
     <div class="container">
-        <div id="newtask">
-            <input type="text" placeholder="Add Tasks">
-            <button id="push">Add Task</button>
-        </div>
-        <div id="tasks"></div>
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Add a task">
+        <button id="addTaskButton">Add Task</button>
+        <ul id="taskList"></ul>
     </div>
     <script src="script.js"></script>
- </body>
-    
+</body>
 </html>
